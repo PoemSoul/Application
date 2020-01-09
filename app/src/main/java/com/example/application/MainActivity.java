@@ -12,7 +12,7 @@ import com.example.application.util.ToastCustom;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Context context = MainActivity.this;
-    private Button btnRgister;
+    private Button btnRegister;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initView() {
-        btnRgister=(Button)findViewById(R.id.register_btn);
+        btnRegister=(Button)findViewById(R.id.register_btn);
     }
 
     private void initListener() {
-        btnRgister.setOnClickListener(this);
+        btnRegister.setOnClickListener(this);
     }
 
     @Override
